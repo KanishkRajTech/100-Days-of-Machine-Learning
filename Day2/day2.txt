@@ -1,0 +1,12 @@
+📘 AI vs ML vs DL
+
+🧠 One-line summary (remember this forever)
+    AI is the goal, ML is the method, DL is the advanced technique.
+
+🤖 Artificial Intelligence (AI)
+    AI is the broad concept of making machines act intelligently like humans.
+
+    👉 It’s about behavior, not how it’s built.
+
+🧠 Machine Learning (ML)
+    ML is a subset of AI where machines learn from data instead of fixed rules.
