@@ -1,0 +1,19 @@
+What is Machine Learning?
+
+👉 Simple definition
+Machine Learning (ML) is a way to make computers learn from data instead of being explicitly programmed for every rule.
+    If a computer improves its performance by experience (data), that’s Machine Learning.
+
+🆚 Programming vs Machine Learning
+Traditional Programming
+    Rules + Data → Output
+    Example:
+        Rules: if marks > 40 → pass
+        Data: student marks
+        Output: pass/fail
+Machine Learning
+    Data + Output → Rules (Model)
+    Example:
+        Data: past student marks
+        Output: pass/fail
+        ML figures out the rule itself
