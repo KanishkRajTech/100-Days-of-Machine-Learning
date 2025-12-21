@@ -1,0 +1,44 @@
+📘 Types of Machine Learning
+    Supervised Learning
+    Unsupervised Learning
+    Semiexpresed Learning
+    Reinforcement Learning
+
+1️⃣ Supervised Learning
+    A type of machine learning where algorithms learn from labeled data (input-output pairs) to find patterns
+        Data is labeled
+        Model learns from input → correct output
+
+    Types of Supervised Learning
+    🅰️ Regression
+        Used when output is a number (continuous value)
+    🅱️ Classification
+        Used when output is a category (label)
+
+2️⃣ Unsupervised Learning
+    A type of machine learning where algorithms learn patterns and structures from unlabeled data
+        No labels
+        Model finds hidden patterns by itself
+
+    Types of Unsupervised Learning
+    🅰️ Clustering
+        Group similar data points
+    🅱️Dimensionality Reduction
+        Reduce features while keeping important information
+    🅲️ Association
+        Find relationships between items
+    D Anomoly Detaaction
+
+3️⃣ Semi-Supervised Machine Learning
+    Semi-Supervised Learning uses:
+        A small amount of labeled data
+        A large amount of unlabeled data
+
+4 Reinforcement Learning
+    Learning by trial and error
+    Uses reward and punishment
+    Types of Reinforcement Learning
+    🅰️ Positive Reinforcement
+        Reward for correct action
+    🅱️ Negative Reinforcement
+        Penalty for wrong action
