@@ -1,0 +1,24 @@
+🧱 Batch Machine Learning (Offline Learning)
+    Batch learning learns from all data at once.
+
+🔹 What it is
+    Model is trained on entire dataset at once
+    Training happens offline
+    Model is deployed after training
+    📌 No learning after deployment (unless retrained)
+
+🔸 How it works
+    Collect data
+    Train model
+    Deploy model
+    Stop learning ❌
+    Retrain later (if needed)
+
+🔹 Pros & Cons
+    Pros
+        Simple to implement
+        Stable model
+        High accuracy on static data
+    Cons
+        Cannot adapt to new data instantly
+        Retraining is costly (time & compute)
