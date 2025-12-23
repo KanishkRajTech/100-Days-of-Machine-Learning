@@ -1,0 +1,24 @@
+⚡Online Machine Learning (Online Learning)
+    Online learning learns continuously from new data.
+
+🔹 What it is
+    Model learns incrementally
+    Updates itself with new data
+    Works in real time or near real time
+    📌 No need to retrain from scratch
+
+🔸 How it works
+    Initial training
+    New data arrives
+    Model updates itself
+    Repeat 🔁
+
+🔹 Pros & Cons
+    Pros
+        Adapts quickly
+        Handles large/streaming data
+        Less memory usage
+    Cons
+        More complex
+        Risk of noisy data
+        Harder to debug
