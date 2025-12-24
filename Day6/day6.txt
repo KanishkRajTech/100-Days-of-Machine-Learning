@@ -1,0 +1,58 @@
+📘 Day 6: Instance-Based vs Model-Based Learning
+👉 Instance-based learning memorizes data.
+👉 Model-based learning generalizes from data.
+
+
+1️⃣ Instance-Based Learning (Memory-Based)
+🔹 What it is
+    Stores training data
+    Makes predictions by comparing new data with stored instances
+    No explicit model is built
+    📌 Learning happens at prediction time
+
+🔸 How it works (intuition)
+    Store all data
+    New data comes
+    Find similar data points
+    Decide based on similarity
+
+🔹 Pros & Cons
+    Pros
+        Simple to understand
+        No training time
+        Adapts easily
+    Cons
+        Slow predictions
+        High memory usage
+        Sensitive to noise
+
+
+
+2️⃣ Model-Based Learning
+🔹 What it is
+    Learns a mathematical model
+    Extracts patterns from data
+    Discards raw data after learning
+    📌 Learning happens during training
+
+🔸 How it works (intuition)
+    Choose a model
+    Train on data
+    Learn parameters
+    Use model for predictions
+
+🔹 Example Algorithms
+    Linear Regression
+    Logistic Regression
+    Decision Trees
+    Neural Networks
+
+🔹 Pros & Cons
+    Pros
+        Fast predictions
+        Uses less memory
+        Better for large datasets
+    Cons
+        Training can be slow
+        Needs careful tuning
+        Harder to understand sometimes
