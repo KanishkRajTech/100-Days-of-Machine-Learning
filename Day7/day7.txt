@@ -1,0 +1,52 @@
+📘 Day 7: Challenges in ML 
+👉 Machine Learning faces various challenges that impact its effectiveness and reliability.
+1️⃣ Data Collection
+    It is either from APIs, web scraping, or sensors.
+    ->Data is hard to collect 
+Challenges:
+    -Getting enough data
+    -Accessing data from reliable sources
+Note: Grabage in, garbage out
+2️⃣ Insufficient Data
+    When the data set is too small to learn meaningful patterns.
+Challenges:
+    -Poor model performance
+    -ML need large datasets
+    -Labeling data is expensive
+
+3️⃣ Non-Representative Data
+    When the training data does not reflect the real-world data, the model may fail to generalize.
+    Example: Training an face detection model only on adult faces but useing it on children faces.
+
+
+4️⃣ Poor Quality Data
+    -noise
+    -missing values
+    -incorrect labels
+    -duplicates
+
+5️⃣ Irreleveant Features
+    Including features (columns) that do not help the model
+
+6️⃣ Overfitting
+    When a model learns the training data too well, including its noise.
+    - performance proof on new data
+    - Looks great in trainging, fails in testing
+
+7️⃣ Underfitting
+    When a model is too simple and fails to capture patterns in the data.
+    - performance poorly on both training and testing data
+
+8️⃣ Software Integration
+    Getting your ML model to work within real applications or systems(APIs, web apps, mobile apps)
+Challenges:
+    -APIs deployment
+    -Model serving
+    -Latency and scalling
+
+9️⃣ Offline Learning/deployment
+    Model are ofter trained offline and deployed to production.
+Challenges: 
+    -Model may become outdated over time and need retraining
+
+    
