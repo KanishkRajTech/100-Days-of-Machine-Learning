@@ -1,0 +1,15 @@
+Day 9: Machine Learning Development Lifecycle
+👉 The Machine Learning Development Lifecycle outlines the stages involved in creating, deploying, and maintaining machine learning
+
+
+collecting & processing data -> training models -> deploying & testing -> improving performance
+
+-Frame the problem
+-Gathering data
+-Preparing the data
+Exporatory Data Analysis (EDA)
+-Feature engineering
+-Model Training, evaluation & selection
+-Model Deployment
+-Testing
+-Optimize
