@@ -1,0 +1,70 @@
+Day 13: End to End project
+
+👉 End to End ML Project Steps
+steps 0: Preprocess + EDA + Feature Selection
+steps 1: Extract input and Output cols
+steps 2: Scale the value
+steps 3: Train Test Split
+steps 4: Train the model
+steps 5: Evaluate the model
+steps 6: Deploy the model
+
+placemnet.csv
+   nunnamed:0  cgpa  iq  placemnet
+0          0  7.5 120        1
+1          1  8.0 130        1  
+2          2  6.5 115        0
+3          3  9.0 140        1
+4          4  5.5 110        0
+
+0) For Preprocess:-
+    we have to remove some column in the data because 1 to 100 and 1 to 100 is two times.
+
+    df.iloc[:,1:]-> give the data anward 1st column.
+
+0) Extract Input and Output cols:-
+    Here we from graph and visualization the data, we can use seaborn pairplot.
+
+    import matplotlib.pyplot as plt
+    plt.scatter(df['cgpa'],df['iq'],c=df['placemnet'])
+
+0) Feature Selection:-
+    From the above data visual, we can decide which algo will work Here,Linear regression will work because Dataset is easily separable into two parts.
+
+1) Extract Input and Output cols:-
+    X = df.iloc[:,0:2] -> get index cgpa and iq
+    y = df.iloc[:,-1] -> get last column placemnet
+
+3) Train Test Split:-
+   from sklearn.model_selection import train_test_split
+   X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.1)
+
+   0.1 -> 10% data for testing and 90% data for training
+   i.e out of 100 rows, 90 rows for training and 10 rows for testing
+
+2) For Scaling the value:-
+   from sklearn.preprocessing import StandardScaler
+   scaler = StandardScaler()
+   X_train = scaler.fit_transform(X_train)
+   X_test = scaler.transform(X_test)
+
+4) Train the model:-
+    We have decided to use Logistic Regression classifier because output is 0 and 1
+
+    from sklearn.linear_model import LogisticRegression
+    clf = LogisticRegression()
+    clf.fit(X_train,y_train)
+
+5) Evaluate the model:- working on test data
+    y_pred = clf.predict(X_test)
+
+    for accuracy calculation:-
+    from sklearn.metrics import accuracy_score
+    accuracy = accuracy_score(y_test,y_pred)
+
+    O/P 0.9 or 90% i.e 10 input diya toh ye aapko 10 main se 9 sahi predict karke de raha hai aur ek galat predict kar raha hai.
+
+    If you want to get decision_boundary i.e want to get how regression line is drawn
+
+    form mlxtend.plotting import plot_decision_regions
+    plot_decision_regions(X_train, y_train.values, clf=clf, legend=2
